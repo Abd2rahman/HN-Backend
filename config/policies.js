@@ -26,7 +26,18 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  '*': 'isAuthorized',
+ 'TopicController': {
+  '*': false
+},
+
+'CommentController': {
+  '*': false
+},
+
+'UserController': {
+  '*': false,
+  facebook: true
+}
 
   /***************************************************************************
   *                                                                          *
