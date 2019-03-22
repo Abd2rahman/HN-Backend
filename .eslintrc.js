@@ -8,6 +8,8 @@ module.exports = {
     }
   },
   globals: {
+    TokenService,
+    User
   },
   parser: 'babel-eslint',
   rules: {
